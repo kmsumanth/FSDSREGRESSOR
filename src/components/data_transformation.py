@@ -29,7 +29,7 @@ class DataTransformation:
         try:
             logging.info('Data Transformation initiated ')
             categorical_cols=['cut', 'color', 'clarity']
-            numerical_col=['carat', 'depth', 'table', 'x', 'y', 'z']
+            numerical_col=['carrat', 'depth', 'table', 'x', 'y', 'z']
             cut_categories=['Fair','Good','Very Good','Premium','Ideal']
             color_categories=['D','E','F','G','H','I','J']
             clarity_categories=['I1','SI2','SI1','VVS2','VVS1','VS2','VS1','IF']
